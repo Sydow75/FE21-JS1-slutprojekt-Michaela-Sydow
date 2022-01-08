@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" ></script>
+    <script src="./js/anime.min.js" defer ></script>
+    <script src="./js/script.js" defer ></script>
+    
+
+  
+
+    <title>20211231</title>
+</head>
+    <body >
+       
+        <header>
+            <h1 class="nameHeader">Mikis Väder</h1>
+           
+        </header>
+               
+       
+        <div  class="card card1">
+            <form class="search-label">
+                <label  for="city">Ort</label>
+                <input type="text" name="city" id="searchForCity" class="city" placeholder="ex: Lund">
+                <button type="submit" class="btn">Sök</button>
+                         
+            </form>      
+            
+          
+            <!-- 1 day -->
+            <div id="currentWeather" class="weather">
+                <h2  class="city-name">Hur ser vädret ut idag?</h2>
+                <img class="img">
+                <h3 class="temp"></h3>
+                <h4 class="desc"></h4>
+                <h4 class="hum"></h4>
+                <h4 class="wind"></h4>
+                <h4 class="error"></h4>
+            </div>
+        </div>        
+        <img  id="bees" class="bee" src="./img/pixlr-bg-result.png" width="10%">
+        <img id="bees" class="bee2" src="./img/pixlr-bg-result2.png" width="10%">
+       
+        <!-- 5 days -->
+        <div id="test" class="card card2">
+            <label class="fem">Väder fem dagar fram</label>     
+            <div id="fiveDaysWeather" class="fiveDays row"></div>
+        </div>
+        
+      
+       
+            
+    </body>
+</html>

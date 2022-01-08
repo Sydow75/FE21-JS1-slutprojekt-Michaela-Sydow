@@ -1,0 +1,80 @@
+body{
+   
+    height: 100vh;
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+    /*background-image: url('https://source.unsplash.com/1600x900/?nature');
+    background-size: auto;*/
+    padding: 4rem;
+    background-color: rgb(253, 253, 223);
+   
+}
+.nameHeader{
+    text-align: center;
+   font-size: 3em;
+    color: black;
+    background-color: rgb(242, 245, 241);
+    opacity: 0.8;
+  
+}
+
+input{
+    padding: 12px 20px;
+    font-size: 15px;
+}
+
+
+.card1{
+   opacity: 0.9;
+    background: rgb(253, 253, 223);
+    padding: 2em;
+    max-width: 420px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.card2{
+    opacity: 0.9;
+    font-size: 150%;
+    background: rgb(253, 253, 223);
+    border: black solid 1px;
+    margin-bottom: 1em;
+   text-align: center;
+
+}
+
+.row{
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+ }
+    
+
+.div-one-day{
+    border: 1px rgb(209, 198, 198) solid;
+}
+
+button{
+    margin: 0.5em;
+    border: 2px solid black;
+    height: 46px;
+    width: 60px;
+    outline: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out ;
+    font-size: 1em;
+}
+
+
+button:hover{
+    background: #7c7c7c6b;
+}
+
+
